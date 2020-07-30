@@ -15,7 +15,7 @@ export default (state = initialState, action) => {
     case 'SET_FILTER':
       return {
         ...state,
-        filter: action.payload,
+        filterBy: action.payload,
       };
     case 'SET_IS_READY':
     return {
